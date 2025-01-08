@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: url(download\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: grey
+
+}
+
+div{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    
+    right: 50%;
+    text-align: center;
+    background-color: rgba(red, green, blue, alpha);
+    transform: translate(50% , -50%);
+    padding: 5px ;
+    box-shadow: 4px 4px 20px #d7292991;
+
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+
+}
+.text{
+    text-align: left;
+    margin-left: 100px;
+    color: black;
+}
+#height , #weight{
+    font-size: 20px;
+    color: black;
+    border: 1px solid black;
+    text-align: left;
+    outline: none;
+    width: 300px;
+    font-weight: 200;
+
+}
+#result{
+    color: black;
+}
+#btn{
+    font-size: inherit;
+    margin-top: 10px;
+    border: none;
+    width: 150px;
+    padding : 10px;
+    color: black;
+    background-color: lightskyblue;
+    cursor: pointer;
+    border-radius: 2px;
+
+    
+
+
+}
+#btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+#info {
+    color:black ;
+    font-size: 15px;
+}
